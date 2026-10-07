@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" role="img" aria-label="Xe điện VinFast VF3 màu xanh">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0" stop-color="#2FD98B"/>
+      <stop offset=".45" stop-color="#0FB26A"/>
+      <stop offset="1" stop-color="#087043"/>
+    </linearGradient>
+    <linearGradient id="bodyTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5CE0A2"/>
+      <stop offset="1" stop-color="#17BE76"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2=".4" y2="1">
+      <stop offset="0" stop-color="#D9F7EC"/>
+      <stop offset=".5" stop-color="#8FD9C0"/>
+      <stop offset="1" stop-color="#4FA98C"/>
+    </linearGradient>
+    <linearGradient id="glassF" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EAFBF4"/>
+      <stop offset="1" stop-color="#6FC4A6"/>
+    </linearGradient>
+    <radialGradient id="shadow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#04321F" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#04321F" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="tyre" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2B3735"/>
+      <stop offset="1" stop-color="#111A18"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2=".6" y2="1">
+      <stop offset="0" stop-color="#F2F6F4"/>
+      <stop offset="1" stop-color="#AEBDB8"/>
+    </linearGradient>
+    <linearGradient id="sill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A5C39"/>
+      <stop offset="1" stop-color="#053726"/>
+    </linearGradient>
+    <linearGradient id="lamp" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFCE6"/>
+      <stop offset="1" stop-color="#B7F34A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- nền -->
+  <rect width="900" height="560" fill="none"/>
+  <ellipse cx="450" cy="470" rx="330" ry="46" fill="url(#shadow)"/>
+
+  <!-- thân xe -->
+  <g>
+    <!-- thân dưới -->
+    <path d="M126 372c-6-46 4-84 26-108 20-22 44-30 74-33l96-30c34-11 66-17 100-19l128-3c30 1 56 6 78 17l72 36c28 14 44 30 50 50 5 17 6 40 3 68-2 20-10 31-25 34l-140 8c-14 1-22-4-24-15l-4-24c-3-17-13-25-31-25H348c-18 0-28 8-31 25l-4 25c-2 11-10 16-24 15l-140-9c-14-2-21-8-23-22z"
+          fill="url(#body)"/>
+    <!-- thân trên / trần -->
+    <path d="M256 231c4-24 16-38 36-45l96-31c32-10 63-16 95-18l122-3c26 1 49 5 68 14l66 33c16 8 26 18 30 30-30-8-64-12-102-13l-200 2c-46 2-88 9-128 21-30 9-56 16-83 20z"
+          fill="url(#bodyTop)"/>
+    <!-- kính hông sau -->
+    <path d="M470 246c-26 1-50 4-72 9-8 2-12 6-11 13l4 30c1 8 6 11 14 11h78c9 0 13-4 13-13v-38c0-8-4-12-13-12z"
+          fill="url(#glass)"/>
+    <!-- kính hông trước -->
+    <path d="M486 246h74c8 0 12 4 12 12v40c0 8-4 12-12 12h-74c-8 0-12-4-12-12v-40c0-8 4-12 12-12z"
+          fill="url(#glass)"/>
+    <!-- kính chắn gió -->
+    <path d="M623 252c26 1 48 6 65 14l24 12c6 3 8 7 6 12l-4 12c-2 7-7 10-15 10h-72c-8 0-12-4-12-12v-36c0-8 4-12 12-12z"
+          fill="url(#glassF)"/>
+    <!-- kính sau -->
+    <path d="M396 250h60c8 0 12 4 12 12v38c0 8-4 12-12 12h-48c-10 0-16-5-18-15l-6-30c-2-11 2-17 12-17z"
+          fill="url(#glassF)" opacity=".9"/>
+    <!-- cột B -->
+    <rect x="559" y="243" width="9" height="86" rx="3" fill="#0A5C39"/>
+    <!-- đường gân thân -->
+    <path d="M150 316c92 16 190 24 300 24s208-8 300-24" fill="none" stroke="#0A5C39" stroke-opacity=".5" stroke-width="3" stroke-linecap="round"/>
+    <!-- ốp cửa -->
+    <rect x="176" y="378" width="368" height="9" rx="4.5" fill="#0A5C39" opacity=".55"/>
+    <rect x="574" y="378" width="150" height="9" rx="4.5" fill="#0A5C39" opacity=".55"/>
+    <!-- tay nắm cửa -->
+    <rect x="520" y="342" width="34" height="10" rx="5" fill="#E7F5EE"/>
+    <rect x="404" y="342" width="34" height="10" rx="5" fill="#E7F5EE"/>
+    <!-- gương -->
+    <path d="M604 292h30c5 0 8 3 8 8v12c0 5-3 8-8 8h-30c-5 0-8-3-8-8v-12c0-5 3-8 8-8z" fill="#0A5C39"/>
+    <!-- đèn trước -->
+    <path d="M756 322h46c7 0 11 4 11 11v18c0 7-4 11-11 11h-46c-7 0-11-4-11-11v-18c0-7 4-11 11-11z" fill="url(#lamp)"/>
+    <!-- đèn sau -->
+    <path d="M104 316h40c7 0 11 4 11 11v22c0 7-4 11-11 11h-40c-7 0-11-4-11-11v-22c0-7 4-11 11-11z" fill="#FF6B5E"/>
+    <!-- lốp & lazăng -->
+    <g>
+      <circle cx="330" cy="408" r="74" fill="url(#tyre)"/>
+      <circle cx="330" cy="408" r="44" fill="url(#rim)"/>
+      <circle cx="330" cy="408" r="16" fill="#0A5C39"/>
+      <g stroke="#8FA5A0" stroke-width="5" stroke-linecap="round">
+        <path d="M330 372v-10M330 444v10M366 408h10M294 408h-10M355 383l7-7M305 433l-7 7M355 433l7 7M305 383l-7-7"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="690" cy="408" r="74" fill="url(#tyre)"/>
+      <circle cx="690" cy="408" r="44" fill="url(#rim)"/>
+      <circle cx="690" cy="408" r="16" fill="#0A5C39"/>
+      <g stroke="#8FA5A0" stroke-width="5" stroke-linecap="round">
+        <path d="M690 372v-10M690 444v10M726 408h10M654 408h-10M715 383l7-7M665 433l-7 7M715 433l7 7M665 383l-7-7"/>
+      </g>
+    </g>
+    <!-- ốp gầm -->
+    <path d="M270 424h480c6 0 9 4 8 10l-3 14c-2 8-7 12-15 12H280c-8 0-13-4-15-12l-3-14c-1-6 2-10 8-10z" fill="url(#sill)"/>
+    <!-- logo VF3 -->
+    <g transform="translate(628 300)">
+      <rect x="0" y="0" width="52" height="20" rx="10" fill="#04100C" opacity=".82"/>
+      <text x="26" y="14.5" font-family="Inter,Segoe UI,sans-serif" font-size="12" font-weight="800" fill="#B7F34A" text-anchor="middle">VF3</text>
+    </g>
+    <!-- ký hiệu xe điện -->
+    <g transform="translate(196 300)" stroke="#B7F34A" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity=".9">
+      <path d="M14 2 4 15h7l-1 9 10-13H13l1-9Z"/>
+    </g>
+  </g>
+
+  <!-- phản chiếu mờ -->
+  <g opacity=".1" transform="translate(0 950) scale(1 -1)">
+    <path d="M126 372c-6-46 4-84 26-108 20-22 44-30 74-33l96-30c34-11 66-17 100-19l128-3c30 1 56 6 78 17l72 36c28 14 44 30 50 50 5 17 6 40 3 68-2 20-10 31-25 34l-140 8c-14 1-22-4-24-15l-4-24c-3-17-13-25-31-25H348c-18 0-28 8-31 25l-4 25c-2 11-10 16-24 15l-140-9c-14-2-21-8-23-22z" fill="#0FB26A"/>
+  </g>
+</svg>
