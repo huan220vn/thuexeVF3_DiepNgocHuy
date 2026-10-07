@@ -101,8 +101,21 @@ git push -u origin main
 ```
 
 GitHub sẽ hỏi đăng nhập. Nếu dùng HTTPS, hãy tạo **Personal Access Token**:
-**Settings → Developer settings → Personal access tokens → Tokens (classic) → Generate new token**
-→ tick quyền **`repo`** → copy token → dùng token làm mật khẩu khi `git push`.
+
+> ⚠️ **QUAN TRỌNG — chọn đúng loại token:**
+> Phải chọn **Tokens (classic)**, **KHÔNG** chọn *Fine-grained tokens*.
+> Fine-grained token mặc định **không có** quyền tạo repository và sẽ báo lỗi `404 Not Found`.
+
+1. Mở **https://github.com/settings/tokens**
+2. Bấm **Generate new token** → chọn **Tokens (classic)** ← *bắt buộc*
+3. **Note**: `VF3 Rental deploy` · **Expiration**: 7 ngày
+4. Tick ô **`repo`** (ô đầu tiên — sẽ tự tick hết các ô con)
+5. **Generate token** → copy chuỗi `ghp_...` → dùng làm mật khẩu khi `git push`
+
+*Nếu buộc phải dùng Fine-grained token:* vào **Settings → Developer settings →
+Personal access tokens → Fine-grained tokens** → chọn token → **Edit** →
+mục **Repository access** chọn *All repositories* → mục **Permissions → Account permissions** →
+**Administration: Read and write** → Save. Khi đó mới tạo được repository.
 
 ### B3. Bật GitHub Pages
 
