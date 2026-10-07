@@ -13,7 +13,7 @@
 window.VF3_CONFIG = {
 
   /* ---- Google Apps Script Web App URL (dạng https://script.google.com/macros/s/AKfy.../exec) ---- */
-  API_URL: '',
+  API_URL: 'https://script.google.com/macros/s/AKfycbxHeasnvwWcggW7nYmFKZmODYKDwVOtMAs2c7zfP-bAh-_ef2mQ5G-l2Fmo9FOVgUBP9g/exec',
 
   /* ---- Thông tin liên hệ ---- */
   phone: '0938 477 107',
