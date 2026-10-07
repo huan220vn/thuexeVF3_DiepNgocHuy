@@ -96,7 +96,7 @@ git init
 git add .
 git commit -m "VF3 Rental - website cho thue xe dien"
 git branch -M main
-git remote add origin https://github.com/TEN_BAN/vf3-rental.git
+git remote add origin https://github.com/TEN_BAN/thuexeVF3_DiepNgocHuy.git
 git push -u origin main
 ```
 
@@ -113,7 +113,7 @@ GitHub sẽ hỏi đăng nhập. Nếu dùng HTTPS, hãy tạo **Personal Access
 5. Đợi 1–2 phút, tải lại trang Settings → Pages sẽ thấy:
 
    ```
-   Your site is live at https://TEN_BAN.github.io/vf3-rental/
+   Your site is live at https://TEN_BAN.github.io/thuexeVF3_DiepNgocHuy/
    ```
 
 ### B4. Gắn tên miền riêng (tuỳ chọn)

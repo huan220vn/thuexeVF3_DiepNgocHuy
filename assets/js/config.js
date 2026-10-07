@@ -34,6 +34,10 @@ window.VF3_CONFIG = {
 
   minHours: 4,
 
+  /* ---- Giờ nhận / trả mặc định (dùng khi khách chưa chọn) ---- */
+  gioNhanDefault: '08:00',
+  gioTraDefault: '17:00',
+
   /* ---- Nếu API_URL trống: đơn được lưu tạm vào localStorage và hiện cảnh báo ---- */
   debug: false
 };

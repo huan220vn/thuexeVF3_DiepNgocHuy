@@ -35,13 +35,15 @@ var HEADERS = [
   'Loại xe',         // 4
   'Hình thức',       // 5
   'Ngày nhận',       // 6
-  'Ngày trả',        // 7
-  'Thời lượng',      // 8
-  'Địa điểm nhận',   // 9
-  'Tạm tính',        // 10
-  'Ghi chú',         // 11
-  'Trạng thái',      // 12  ← bạn tự cập nhật: Mới / Đã gọi / Đã xác nhận / Huỷ
-  'Nguồn'            // 13
+  'Giờ nhận',        // 7
+  'Ngày trả',        // 8
+  'Giờ trả',         // 9
+  'Thời lượng',      // 10
+  'Địa điểm nhận',   // 11
+  'Tạm tính',        // 12
+  'Ghi chú',         // 13
+  'Trạng thái',      // 14  ← bạn tự cập nhật: Mới / Đã gọi / Đã xác nhận / Huỷ
+  'Nguồn'            // 15
 ];
 
 
@@ -84,7 +86,9 @@ function doPost(e) {
       clean(d.loaiXe || 'VinFast VF3'),
       clean(d.hinhThuc),
       clean(d.ngayNhan),
+      clean(d.gioNhan),
       clean(d.ngayTra),
+      clean(d.gioTra),
       clean(d.thoiLuong),
       clean(d.diaDiem),
       Number(d.tamTinh) || 0,
@@ -104,7 +108,8 @@ function doPost(e) {
                 '\nEmail: ' + clean(d.email) +
                 '\nXe: ' + clean(d.loaiXe) +
                 '\nHình thức: ' + clean(d.hinhThuc) +
-                '\nNhận: ' + clean(d.ngayNhan) + '  →  Trả: ' + clean(d.ngayTra) +
+                '\nNhận: ' + clean(d.gioNhan) + ' ' + clean(d.ngayNhan) +
+                '\nTrả: ' + clean(d.gioTra) + ' ' + clean(d.ngayTra) +
                 '\nThời lượng: ' + clean(d.thoiLuong) +
                 '\nĐịa điểm: ' + clean(d.diaDiem) +
                 '\nTạm tính: ' + (Number(d.tamTinh) || 0).toLocaleString('vi-VN') + 'đ' +
@@ -156,7 +161,7 @@ function getSheet() {
     sh.setColumnWidth(1, 150);
     sh.setColumnWidth(2, 160);
     sh.setColumnWidth(3, 120);
-    sh.setColumnWidth(12, 260);
+    sh.setColumnWidth(14, 260);   // Ghi chú
   }
   return sh;
 }

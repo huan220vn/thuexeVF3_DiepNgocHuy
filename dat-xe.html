@@ -94,8 +94,16 @@
               <input type="date" name="ngayNhan" required>
             </label>
             <label class="field">
+              <span>Giờ nhận xe</span>
+              <input type="time" name="gioNhan" value="08:00" step="900">
+            </label>
+            <label class="field">
               <span>Ngày trả xe <b style="color:var(--green-600)">*</b></span>
               <input type="date" name="ngayTra" required>
+            </label>
+            <label class="field">
+              <span>Giờ trả xe</span>
+              <input type="time" name="gioTra" value="17:00" step="900">
             </label>
             <label class="field span-2">
               <span>Địa điểm nhận xe <b style="color:var(--green-600)">*</b></span>
@@ -105,6 +113,7 @@
                 <option value="Sân bay Tân Sơn Nhất">Sân bay Tân Sơn Nhất</option>
                 <option value="Khác (ghi rõ ở phần ghi chú)">Khác (ghi rõ ở phần ghi chú)</option>
               </select>
+              <span class="hint">Thuê trong ngày: chọn cùng ngày, giá tính theo giờ (tối thiểu 4 giờ). Thuê nhiều ngày: giá theo ngày, miễn phí 100 km/ngày.</span>
             </label>
           </div>
         </fieldset>
