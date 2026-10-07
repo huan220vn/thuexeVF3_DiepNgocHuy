@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://example.github.io/vf3-rental/</loc>
+    <loc>https://example.github.io/thuexeVF3_DiepNgocHuy/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://example.github.io/vf3-rental/dat-xe.html</loc>
+    <loc>https://example.github.io/thuexeVF3_DiepNgocHuy/dat-xe.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://example.github.io/vf3-rental/gioi-thieu.html</loc>
+    <loc>https://example.github.io/thuexeVF3_DiepNgocHuy/gioi-thieu.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.github.io/vf3-rental/tin-tuc.html</loc>
+    <loc>https://example.github.io/thuexeVF3_DiepNgocHuy/tin-tuc.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.github.io/vf3-rental/lien-he.html</loc>
+    <loc>https://example.github.io/thuexeVF3_DiepNgocHuy/lien-he.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.github.io/vf3-rental/chinh-sach.html</loc>
+    <loc>https://example.github.io/thuexeVF3_DiepNgocHuy/chinh-sach.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>

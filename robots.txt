@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://example.github.io/vf3-rental/sitemap.xml
+Sitemap: https://example.github.io/thuexeVF3_DiepNgocHuy/sitemap.xml
